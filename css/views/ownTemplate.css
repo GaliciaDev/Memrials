@@ -1,0 +1,19 @@
+/* Formateo para pruebas */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .pruebaImagen {
+    width: 100vw;   /* 100% del ancho de la ventana */
+    height: 100vh;  /* 100% del alto de la ventana */
+    
+    position: fixed; /* Fija la imagen en la ventana */
+    top: 15px;
+    left: 0;
+}
+
+
