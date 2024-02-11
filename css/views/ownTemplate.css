@@ -1,19 +1,216 @@
-/* Formateo para pruebas */
+  /* Formateo para pruebas */
 
-* {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
+  * {
+      margin: 0;
+      padding: 0;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
 
-  .pruebaImagen {
-    width: 100vw;   /* 100% del ancho de la ventana */
-    height: 100vh;  /* 100% del alto de la ventana */
+    body {
+      font-family: 'AkzidenzGrotesk', sans-serif;
+      background: linear-gradient(90deg, #ff3131, #ff914d, #f88f4d);
+    }
+
+    .markPetown {
+      /* Color */
+      background-color: #efefef;
+      
+      display: flex;
+      width: 48vh;
+      height: 79vh;
+      float: left;
+
+      /* Alineacion */
+      margin-left: 2em;
+      margin-top: 1em;
+      border-radius: 15px;
+      
+    }
+
+    .mainAside{
+      background-color: #ffffff;
+      margin: 1em;
+      display: flex;
+      width: 44vh;
+      height: 71vh;
+      border-radius: 10px;
+
+      border-style: solid;
+      border-color: #cfcfcf;
+
+    }
+
+    /* Barra de navegacion */
+    .menuPetown {
+      background: linear-gradient(90deg, #ff3131, #ff914d, #f88f4d);
+      height: 40px;
+      /* Transicion suave */
+      transition: background 0.5s ease;
+    }
+
+    .menuPetown:hover {
+      background: rgba(0, 0, 0, 0.5); /* Semi-transparente */
+      
+    }
+
+    .menuPetown ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+
+      /* Esto mueve el contenido ala derecha */
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 2em;
+      
+    }
+
+    .menuPetown ul li {
+      float: left;
+      
+
+    }
+
+    .menuPetown ul li a {
+      display: block;
+      text-align: center;
+      padding: 10px 30px;
+
+      
+      color: #f6f6f6;
+      text-decoration: none;
+    }
+
+
+    /* Contenedor pricipal */
+    .mainBack {
+      /* Posicionamiento */
+      display: flex;
+      margin-top: 1em;
+      float: right;
+      align-items: center; /* Centrado vertical */
+      
+      
+      width: 145vh;
+      height: 79vh;
+      border-radius: 15px;
+      background-color: #efefef;
+      margin-right: 2em;
+    }
+
+    /* Informacion del dueño de la mascota */
+    .infoProfile {
+      background-color: #ffffff;
+      margin: 1em;
+      width: 54vh;
+      height: 70vh;
+      border-radius: 10px;
+
+      border-style: solid;
+      border-color: #cfcfcf;
+      
+    }
     
-    position: fixed; /* Fija la imagen en la ventana */
-    top: 15px;
-    left: 0;
-}
+    .infoPet {
+      margin-bottom: 36vh;
+      background-color: #ffffff;  
+      width: 80vh;
+      height: 34vh;
+      border-radius: 10px;
+      position: relative;
+      border-style: solid;
+      border-color: #cfcfcf;
 
+    }
 
+    .address {
+      margin-top: 37vh;
+      margin-left: 61vh;
+      background-color: #ffffff;  
+      width: 80vh;
+      height: 34vh;
+      border-radius: 10px;
+      position: absolute;
+      border-style: solid;
+      border-color: #cfcfcf; 
+    }
+
+    .textPet {
+      position: relative;;
+      margin: 1em;
+      
+    }
+
+    .textPet h2
+    {
+      color: #ff914d;
+      font-style: italic;
+    }
+
+    .textPet p
+    {
+      margin-left: 1.5em;
+      size: .5px;
+      font-weight: normal;
+      
+    }
+
+    .imgPet {
+      position: relative;
+      background-image: url('../../assets/img/salem.jpg');
+      background-size: cover;
+      background-position: center;
+      
+
+      width: 26vh;
+      height: 26vh;
+
+      margin-left: 13em;
+      margin-top: -8em;
+
+      border-radius: 50%;
+      
+       
+    }
+
+    .logoTypePet{
+      position: absolute;
+      background-image: url('../../assets/img/bones.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 16vh;
+      height: 13vh;
+
+      margin-top: 20vh;
+      margin-left: 6vh; 
+    }
+
+    .logoTypePet p{
+      display: flex;
+      justify-content: center;
+      
+      margin-top: 1.5em;
+      margin-right: 1em;
+      color: #ffffff;
+      font-style: italic;
+      font-size: .8em;
+    }
+
+    .imgAddress{
+      position: absolute;
+      background-image: url('../../assets/img/casa.jpeg');
+      background-size: cover;
+      aspect-ratio: 64/32;
+      width: 72vh;
+      height: 25vh;
+      margin: 1em;
+      border-radius: 10px;
+  }
+  
+  .link-content {
+      width: 100%;
+      height: 100%;
+  }
